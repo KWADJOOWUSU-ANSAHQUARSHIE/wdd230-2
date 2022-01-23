@@ -1,0 +1,37 @@
+h1, h2, h3 { font-family: 'Roboto', 'Open Sans', sans-serif; }
+body {
+    font-family: 'Playfair Display', serif;
+    max-width: 500px;
+}
+img {
+    border: double;
+}
+header {
+    background-color:blanchedalmond;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.row {
+    grid-column: 2/3;
+}
+footer {
+    text-align: center;
+    background-color:blanchedalmond;
+}
+main ul li {
+    text-align: center;
+    margin: 0;
+}
+ul {
+    letter-spacing: 2px;
+    list-style: square inside url("sqpurple.gif");
+}
+
+ul a {
+    letter-spacing: 1.5px;
+}
