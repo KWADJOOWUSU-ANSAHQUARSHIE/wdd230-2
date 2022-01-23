@@ -1,0 +1,38 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Mobile View */
+@media only screen and (min-width: 16em) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Tablet View */
+@media only screen and (min-width: 60em){
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 2;
+    }
+}
+
+/* Destop View */
+@media only screen and (min-width: 60em) {
+    main {
+        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    }
+
+    p:nth-child(3) {
+        grid-template-columns: 1fr, 1fr, 1fr;
+    }
+
+    p:nth-child(3) {
+        grid-column: span 3;
+    }
+}
+
