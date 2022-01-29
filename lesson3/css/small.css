@@ -12,8 +12,8 @@ html {
   
   body {
     font-size: 16px;
-    font-family: Inter, sans-serif;
-    background-color: #eee;
+    font-family: classic-roman;
+    background-color: #00FFFF;
   }
   
   /* Responsive images */
@@ -24,8 +24,9 @@ html {
   /*----------- HEADER --------------*/
   
   header {
+    font-family: arial-bold;
     padding: 1.3rem 2%;
-    background-color: #caf0f8;
+    background-color: #008000;
   }
   
   header img {
@@ -54,7 +55,7 @@ html {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #00b4d8;
+    background-color: #000000;
   }
   
   nav ul li {
