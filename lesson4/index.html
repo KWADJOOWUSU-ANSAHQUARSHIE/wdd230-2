@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Socorro County Chamber of Commerce home page.">
+    <title>Chamber of Commerce</title>
+    <link rel="shortcut icon" href="images/icon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="logo">
+        <h1>Accra Ghana <span class="sub-header">Chamber of Commerce</span></h1>
+        <button id="hamburger"><span> ☰ </span></button>
+
+        <nav id="navigation" class="nav">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="discover.html">Discover</a></div>
+            <div><a href="directory.html">Directory</a></div>
+            <div><a href="join.html">Join</a></div>
+            <div><a href="#">Contact</a></div>
+            <p><span id='date-time'></span></p>
+        </nav>
+    </header>
+    <main>
+        <section class="event">
+            <h3>Event</h3>
+        </section>
+        <section class="weather">
+            <h3>Weather</h3>
+        </section>
+        <section class="join">
+            <h3>Join</h3>
+        </section>
+        <section class="action">
+            <h3>Hero with site name and call to action</h3>
+        </section>
+        <section class="news">
+            <h3>News Release</h3>
+        </section>
+        <section class="spotlight">
+            <h3>Spotlight 1</h3>
+            <h3>Spotlight 2</h3>
+            <h3 class="spot-3">Spotlight 3</h3>
+        </section>
+    </main>
+    <footer>
+        <ul class="left">
+            <li><a href="https://www.facebook.com/">⏬</a></li>
+            <li>(+233) 201182491</li>
+            <li>kushbastero@gmail.com</li>
+            <li><a href="https://www.linkedin.com/">⏬</a></li>
+        </ul>
+        <ul class="right">
+            <li><a
+                    href="https://www.google.com/maps/place/Madina/@5.6730433,-0.1804181,14z/data=!3m1!4b1!4m5!3m4!1s0xfdf82daa00ea951:0xfb74fe2f3b10f97b!8m2!3d5.6731273!4d-0.1663851">
+                    📍</a></li>
+            <span id="updated"></span>
+        </ul>
+        <div>&copy;<span id="year">2022</span> | Kwadjo Owusu-Ansah Quarshie | Accra Ghana</div>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+    <script>
+        var dt = new Date();
+        document.getElementById('date-time').innerHTML = dt;
+    </script>
+</body>
+
+</html>
