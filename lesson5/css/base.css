@@ -1,0 +1,167 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  
+  /* Apply a natural box layout model to all elements */
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  /* ---------- BODY ---------- */
+  body {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  /* ---------- HEADER ---------- */
+  header {
+    background-color: #064e64;
+    color: rgb(5, 26, 121);
+    padding-top: 0.5rem;
+  }
+  
+  header img {
+    float: left;
+    width: 70px;
+    margin: 0.5rem 2vw;
+  }
+  
+  header h1 {
+    margin: 0.5em 0 0 0;
+    font-size: 1.5rem;
+  }
+  
+  header h2 {
+    margin: 1em 0;
+    font-weight: normal;
+    font-size: 0.9rem;
+  }
+  
+  header h2.date {
+    margin-top: 20px;
+  }
+  
+  header h2.date {
+    color: #66fcf1;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  /* ---------- NAVIGATION ---------- */
+  nav {
+    background-color: #0b010c;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav button {
+    margin: 0.5rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  nav ul li a {
+    display: block;
+    font-weight: bold;
+    padding: 0.8rem 2vw;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+  }
+  
+  nav ul li.active {
+    background-color: #00837e;
+  }
+  
+  nav ul li a:hover {
+    background-color: #66fcf1;
+    color: #0b010c;
+  }
+  
+  /* Responsive Nav */
+  nav ul {
+    display: none;
+  }
+  nav ul.open {
+    display: block;
+  }
+  
+  #menuButton span:nth-child(1) {
+    display: block;
+  }
+  #menuButton span:nth-child(2) {
+    display: none;
+  }
+  
+  #menuButton.open span:nth-child(1) {
+    display: none;
+  }
+  #menuButton.open span:nth-child(2) {
+    display: block;
+  }
+  
+  /* ---------- MAIN ---------- */
+  main {
+    padding: 0.5rem 2vw;
+  }
+  
+  main section {
+    border: 2px solid #0b010c;
+    margin-bottom: 20px;
+  }
+  
+  main section.colored {
+    background-color: #1f2833;
+    color: #fff;
+  }
+  
+  main section.colored h2 {
+    color: #66fcf1;
+  }
+  
+  main section h2,
+  main section p {
+    padding: 0 0.8rem;
+  }
+  
+  main section p {
+    line-height: 1.3rem;
+  }
+  
+  main section.home-join,
+  main section.home-spotlight-3 {
+    display: none;
+  }
+  
+  /* ---------- FOOTER ---------- */
+  footer {
+    background-color: #1f2833;
+    color: #fff;
+    padding: 1.5rem 2vw;
+    border-top: 20px solid #0b010c;
+    text-align: center;
+  }
+  
+  footer p a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  footer p a:hover {
+    color: #66fcf1;
+  }
+  
+  footer img {
+    width: 100px;
+  }
