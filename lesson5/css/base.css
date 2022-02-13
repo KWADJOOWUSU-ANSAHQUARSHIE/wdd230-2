@@ -11,6 +11,24 @@ html {
     box-sizing: border-box;
   }
   
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
   /* ---------- BODY ---------- */
   body {
     font-size: 16px;
@@ -110,6 +128,21 @@ html {
     display: block;
   }
   
+  .home-hero {
+    background-image: url("../images/optimized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+
+header div.showme {
+  display: block;
+}
+
+header div.hideme {
+  display: none;
+}
   /* ---------- MAIN ---------- */
   main {
     padding: 0.5rem 2vw;
@@ -143,6 +176,13 @@ html {
     display: none;
   }
   
+  .hero-content {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1rem 2vw;
+    text-align: center;
+    width: 80%;
+    margin: 2rem 10% 3rem 10%;
+  }
   /* ---------- FOOTER ---------- */
   footer {
     background-color: #1f2833;
