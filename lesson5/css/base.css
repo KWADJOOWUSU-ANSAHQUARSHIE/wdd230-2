@@ -113,7 +113,9 @@ html {
   nav ul.open {
     display: block;
   }
-  
+  img {
+    max-width: 100%;
+  }
   #menuButton span:nth-child(1) {
     display: block;
   }
@@ -138,6 +140,10 @@ html {
 
 header div.showme {
   display: block;
+}
+
+.news-events, .weather, .join, .spotlightdiv {
+  text-align: center;
 }
 
 header div.hideme {
@@ -202,6 +208,12 @@ header div.hideme {
     color: #66fcf1;
   }
   
+  
   footer img {
     width: 100px;
+  }
+
+  .weather, .spotlightdiv {
+    background-color: #3f0344; 
+    padding: 2rem;
   }
