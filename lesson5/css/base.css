@@ -97,6 +97,11 @@ html {
     text-align: center;
   }
   
+  .banner-content {
+    background-color: #007bb5;
+    display: inline;
+
+  }
   nav ul li.active {
     background-color: #00837e;
   }
