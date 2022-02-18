@@ -101,7 +101,8 @@ html {
     background-color: #007bb5;
     display: inline;
 
-  }
+  } 
+  
   nav ul li.active {
     background-color: #00837e;
   }
@@ -222,3 +223,76 @@ header div.hideme {
     background-color: #3f0344; 
     padding: 2rem;
   }
+
+  main.discover picture img[data-src] {
+    opacity: 0;
+    visibility: hidden;
+}
+main.discover picture img{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+/* -----Discover Page Section-------- */
+main.discover {
+    text-align: center;
+}
+main.discover article p{
+    text-align: left;
+}
+.discover h2 {
+    padding-bottom: 2rem;
+}
+.discover-heading {
+    height: 100px;
+    position: relative;
+    background-color: #E5E5E5;
+}
+.discover-heading h2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.join-btn {
+  display: block;
+  width: 100%;
+  font-size: large;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+.join-btn:hover {
+  background-color: #14213D;
+  color: white;
+}
+
+.herodiv {
+  margin: 10px auto;
+  position: relative;
+}
+
+.herodiv {
+  margin: 10px auto;
+  position: relative;
+}
+
+.discover article {
+    margin: 25px;
+    border: 2px #E5E5E5 solid;
+    border-radius: 10px;
+}
+.discover article h2 a {
+    text-decoration: none;
+    color: #14213D;
+}
+.discover article h2 a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+main.discover picture img{
+    box-shadow: 5px 4px 10px #666;
+}
