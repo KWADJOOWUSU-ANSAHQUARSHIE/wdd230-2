@@ -55,9 +55,6 @@ fetch('https://api.openweathermap.org/data/2.5/weather?id=' +5660340+ '&appid=ca
 		// catch any errors
 	});
 
-
-
-
 // Script for the to display a banner on Mondays or Tuesdays only at the very 
 // top of the page that says "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m." 
 const banner = document.querySelector('#top-page-banner');
