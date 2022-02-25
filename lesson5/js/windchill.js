@@ -5,7 +5,7 @@ let tempCelsius = document.querySelector('.temp-Cels');
 let windSpeed_ = document.querySelector('.wind-speed');
 
 
-fetch('https://api.openweathermap.org/data/2.5/weather?id=' +5660340+ '&appid=caa8540702ef690bc84e562267149524')
+fetch('https://api.openweathermap.org/data/2.5/weather?id=' +5660340+ '&appid  =44af6e0267e626fb09390194949d7a28')
     .then(response => response.json())
     .then(data => {
         let tempValue = data['main']['temp'];
