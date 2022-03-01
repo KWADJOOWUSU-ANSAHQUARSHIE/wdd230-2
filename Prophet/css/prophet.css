@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Open+Sans:wght@300&family=Smooch+Sans:wght@100&display=swap');
+
+    
+section{
+    display: grid;
+    background-color: rgb(78, 74, 74);
+    text-align: center;
+    border: 5px double rgb(105, 105, 60);
+    padding: 10px;
+    margin: 5px;
+}
+h1{
+    font-family: 'Hubballi', cursive;
+    text-align: center;
+}
+
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-family: 'Smooch Sans', sans-serif;
+    align-self: center;
+}
+ footer {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 35rem) {
+
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+}
+
+@media only screen and (min-width: 64rem) {
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+
+}
