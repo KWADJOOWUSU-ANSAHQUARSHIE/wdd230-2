@@ -1,5 +1,5 @@
 
-const dataURL = 'https://github.com/KWADJOOWUSU-ANSAHQUARSHIE/wdd230/blob/main/lesson9/js/json/data.json';
+const dataURL = 'https://kwadjoowusu-ansahquarshie.github.io/wdd230/lesson9/js/json/data.json';
 const listDiv = document.querySelector('.list-view');
 const cardDiv = document.querySelector('.grid-view');
 
