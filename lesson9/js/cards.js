@@ -2,6 +2,7 @@
 const dataURL = 'https://kwadjoowusu-ansahquarshie.github.io/wdd230/lesson9/js/json/data.json';
 const listDiv = document.querySelector('.list-view');
 const cardDiv = document.querySelector('.grid-view');
+
 fetch(dataURL)
     .then((response) => {
         return response.json();
