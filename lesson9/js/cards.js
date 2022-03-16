@@ -3,6 +3,8 @@ const dataURL = 'https://kwadjoowusu-ansahquarshie.github.io/wdd230/lesson9/js/j
 const listDiv = document.querySelector('.list-view');
 const cardDiv = document.querySelector('.grid-view');
 
+// fetching of data from github.com
+
 fetch(dataURL)
     .then((response) => {
         return response.json();
