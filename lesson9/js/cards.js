@@ -10,12 +10,12 @@ fetch(dataURL)
     .then((jsonObject) => {
         console.table(jsonObject);
 
-        const companies = jsonObject['companies'];
-        companies.forEach(displaycompaniesInGrid);
-        companies.forEach(displaycompaniesInList);
+        const stalkers = jsonObject['stalkers'];
+        stalkers.forEach(displaystalkersInGrid);
+        stalkers.forEach(displaystalkersInList);
     });
 
-    function displaycompaniesInGrid(business) {
+    function displaystalkersInGrid(stalkers) {
 
         let media_card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -25,14 +25,14 @@ fetch(dataURL)
         let address = document.createElement('p');
         let website = document.createElement('a');
 
-        h2.textContent = `${business.name}`
-        phone.textContent = `${business.phone}`
-        address.textContent = `${business.address}`
-        website.textContent = `${business.website}`
+        h2.textContent = `${stalkers.name}`
+        phone.textContent = `${stalkers.phone}`
+        address.textContent = `${stalkers.address}`
+        website.textContent = `${stalkers.website}`
         
-        website.setAttribute("href", business.website);
-        image.setAttribute("src", business.imageurl);
-        image.setAttribute("alt", `Logo of ${business.name}`);
+        website.setAttribute("href", stalkers.website);
+        image.setAttribute("src", stalkers.imageurl);
+        image.setAttribute("alt", `Logo of ${stalkers.name}`);
         image.setAttribute("loading", "lazy");
        
         media_card.appendChild(h2);
@@ -45,7 +45,7 @@ fetch(dataURL)
         cardDiv.appendChild(media_card);
     }
 
-    function displaycompaniesInList(business) {
+    function displaystalkersInList(stalkers) {
 
         let media_card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -53,10 +53,10 @@ fetch(dataURL)
         let address = document.createElement('p');
         let website = document.createElement('p');
 
-        h2.textContent = business.name
-        phone.textContent = business.phone
-        address.textContent = business.address
-        website.textContent = business.website
+        h2.textContent = stalkers.name
+        phone.textContent = stalkers.phone
+        address.textContent = stalkers.address
+        website.textContent = stalkers.website
         
        
         media_card.appendChild(h2);
