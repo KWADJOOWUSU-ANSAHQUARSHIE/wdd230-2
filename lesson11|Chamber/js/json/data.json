@@ -1,0 +1,46 @@
+{
+	"companies": [
+		{
+			"name": "Sid Meiers",
+			"address": "Diamond-Estate",
+			"phone": "☎️ +233201182491",
+			"website": "https://store.steampowered.com/app/3920/Sid_Meiers_Pirates/",
+			"imageurl": "images/pirates-1.jpg"
+		},
+		{
+			"name": "Sea of Thieves",
+			"address": "Diamond-Estate",
+			"phone": "☎️ +233201182491",
+			"website": "https://www.seaofthieves.com/",
+			"imageurl": "images/pirates-2.jpg"
+		},
+		{
+			"name": "Skull and Bones",
+			"address": "Diamond-Estate",
+			"phone": "☎️ +233201182491",
+			"website": "https://www.ubisoft.com/en-us/game/skull-and-bones",
+			"imageurl": "images/pirates-3.jpg"
+		},
+		{
+			"name": "Bunny-Jump",
+			"address": "Diamond-Estate",
+			"phone": "☎️ +233201182491",
+			"website": "https://www.addictinggames.com/action/jump-bunny-jump",
+			"imageurl": "images/pirates-4.jpg"
+		},
+		{
+			"name": "Flight",
+			"address": "Diamond-Estate",
+			"phone": "☎️ +233201182491",
+			"website": "https://www.addictinggames.com/action/flight",
+			"imageurl": "images/pirates-5.jpg"
+		},
+		{
+			"name": "Endless Runner",
+			"address": "Diamond-Estate",
+			"phone": "☎️ +233201182491",
+			"website": "https://www.addictinggames.com/endless-runner",
+			"imageurl": "images/pirates-6.jpg"
+		}
+	]
+}

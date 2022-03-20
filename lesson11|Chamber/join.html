@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Table Build" />
+    <meta name="author" content="Kwadjo Owusu-Ansah Quarshie" />
+
+    <title>Chamber of Commerce</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="top-page-banner">
+        <div class="banner-content">
+            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            <button class="bannerBtn" type="button">&times;</button>
+        </div>
+    </div>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.webp" alt="welcome">
+            <h2>Welcome!</h2>
+            <p class="date">
+                <span id="currentDate"></span>
+            </p>
+        </div>
+
+        <nav>
+            <button id="menuButton"><span>&#9776;</span><span>X</span></button>
+            <ul id="mainNav">
+
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="thankyou.html">Appreciation</a></li>
+                <li><a href="lazyload.html">Progressive Images Loading</a></li>
+                <li><a href="wireframe.html">Wire Frame</a></li>
+                <li><a href="discover.html">Discover</a></li>
+
+
+            </ul>
+            <p>
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+            </p>
+
+        </nav>
+
+    </header>
+    <main>
+        <form action="thankyou.html" method="get">
+        <h2>FORM</h2>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label class="top">
+                First Name:
+                <input type="text" id="fname" name="fname" required></label><br>
+            <label class="top">
+                Last Name:
+                <input type="text" id="lname" name="lname" required></label><br>
+            <label class="top">
+                E-mail Address:<input type="email" id="email" name="email" placeholder="yourname@email.com">
+            </label><br>
+            <label class="top">
+                Phone:
+                <input type="tel" id="phone" name="phone" placeholder="(+233) 201182491">
+            </label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Business</legend>
+            <label class="top">
+                Business Position:
+                <input type="text" id="businessPos" name="businessPos"></label><br>
+
+            <label class="top">
+                Business Name:
+                <input type="text" id="businessName" name="businessName" required></label><br>
+
+            <label class="top">
+                Business Description:
+                <textarea id="description" name="description" rows="6"></textarea></label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Membership Level</legend>
+            <div>Apoint a membership level:</div>
+            <label class="sbs"><input class="radio" type="radio" id="leve1" name="membLevel"
+                    value="None Profit Membership" checked>Non-Profit
+                <span>Free</span></label>
+            <div>Chamber of Commerce</div>
+            <label class="sbs"><input class="radio" type="radio" id="leve2" name="membLevel"
+                    value="Bronze Membership">Bronze
+                <span>GH 30</span></label>
+            <div>Chamber of Commerce</div>
+            <label class="sbs"><input class="radio" type="radio" id="leve3" name="membLevel"
+                    value="Silver Membership">Silver
+                <span>GH 40</span></label>
+            <div>Chamber of Commerce</div>
+            <label class="sbs"><input class="radio" type="radio" id="leve4" name="membLevel"
+                    value="Gold Membership">Gold
+                <span>GH 50</span></label>
+            <div>Chamber of Commerce</div>
+            <div class="link">
+                <p><a href="thankyou.html"><strong>Join Chamber</strong></a></p>
+            </div>
+        </fieldset>
+        
+        <input type="hidden" id="postId" name="postId" value="datetime">
+        <div class="membershipInfo">
+        </div>
+        </form>
+
+    </main>
+    <footer>
+        <div class="footer-content-1">
+            <div class="footer-logo-side">
+                <img src="images/logo.webp" alt="home">
+                <p>Home Page</p>
+                <p>Form<br />Accra Ghana</p>
+            </div>
+            <div class="footer-map-side">
+                <p>kushbastero@gmail.com<br /> ☎️(+233) 201182491</p>
+                <p>
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/Madina/@5.6730433,-0.1804181,14z/data=!3m1!4b1!4m5!3m4!1s0xfdf82daa00ea951:0xfb74fe2f3b10f97b!8m2!3d5.6731273!4d-0.1663851">
+                        📍
+                    </a>
+                </p>
+            </div>
+        </div>
+        <p>
+            &copy; <span id="currentYear"></span> Home Page | Kwadjo Owusu-Ansah Quarshie| WDD230 Project | Last
+            Modification:
+            <span id="lastModif"></span>
+        </p>
+        <div class="website-counter"></div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
