@@ -1,0 +1,32 @@
+{
+	"temples": [
+		{
+			"name": "Aba Nigeria Temple",
+			"address": "Aba, Abia State ",
+			"phone": "☎️ (+234) 80-3903-4804",
+			"website": "https://churchofjesuschristtemples.org/aba-nigeria-temple/",
+			"imageurl": "images/json-3.jpg"
+		},
+		{
+			"name": "Accra Ghana Temple",
+			"address": "Greater Accra",
+			"phone": "☎️ (+233) 302-650-123",
+			"website": "https://churchofjesuschristtemples.org/accra-ghana-temple/",
+			"imageurl": "images/json-2.jpg"
+		},
+		{
+			"name": "Adelaide Australia Temple",
+			"address": "Marden, South Australia",
+			"phone": "☎️ (+61) 8-8363-8000",
+			"website": "https://churchofjesuschristtemples.org/adelaide-australia-temple/",
+			"imageurl": "images/json-1.jpeg"
+		},
+		{
+			"name": "Atlanta Georgia Temple",
+			"address": "Sandy Springs, Georgia",
+			"phone": "☎️ (+1) 770-393-3698",
+			"website": "https://churchofjesuschristtemples.org/atlanta-georgia-temple/",
+			"imageurl": "images/atlanta.jpeg"
+		}
+    ]
+}        
