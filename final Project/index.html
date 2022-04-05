@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Temple Inn and Suites" />
+    <meta name="author" content="Kwadjo Owusu-Ansah Quarshie" />
+
+    <title>Temple Inn & Suites</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div>
+        <div id="top-page-banner">
+            <div class="banner-content">
+                🤝🏼 We need your support come join us !!!.
+                <button class="bannerBtn" type="button">&times;</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header-content">
+            <img src="images/logo-1.jpg" alt="logo"/>
+            <h2>Temple Inn & Suites</h2>
+            <p>Together We Stand</p>
+            <p class="date"><span id="currentDate"></span></p>
+        </div>
+        <nav>
+            <button id="menuButton"><span>&#9776;</span><span>X</span></button>
+            <ul id="mainNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="temple.html">Temple</a></li>
+            </ul>
+            <p>
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+            </p>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section class="test">
+            <div class="herodiv">
+                <picture class="hero-img">
+                    <source media="(max-width: 1200px)" srcset="images/hero-1.jpg">
+                    <source media="(max-width: 860px)" srcset="images/hero-2.jpg">
+                    <source media="(max-width: 480px)" srcset="images/hero-3.jpg">
+                    <img src="images/hero.jpg" alt="maximum">
+                </picture>
+        </section>
+        <p>
+            Temples are different than the thousands of Church meetinghouses located around the world. Meetinghouses
+            are where Sunday worship services, youth gatherings, service projects, and other community events take
+            place. All are welcome to join in these activities.
+        </p>
+        </div>
+        <article>
+            <h2>Directory</h2>
+            <section class="home-join">
+                <div class="directory">
+                    <picture class="hero-img">
+                        <source media="(max-width: 1200px)" srcset="images/city-1.jpg">
+                        <source media="(max-width: 860px)" srcset="images/city-2.jpg">
+                        <source media="(max-width: 480px)" srcset="images/city-3.jpg">
+                        <img src="images/city.jpg" alt="maximum">
+                        <p><a href="form.html"><strong>Make Reservation</strong></a></p>
+                    </picture>
+                </div>
+            </section>
+            <p>
+                Temples have a more specific purpose. They are places specially set apart for sacred service and
+                ceremonies. They are designated by the Lord and dedicated to His purposes. Temples are the only places
+                where some priesthood ordinances are authorized to be performed. These sacred ceremonies lift and
+                inspire participants as they make commitments to follow the teachings and example of Jesus Christ.
+            </p>
+            </div>
+            <h2>Weather</h2>
+            <div class="weather">
+                <figure><img src="https://openweathermap.org/img/w/04n.png" alt="" id="weathericon" />
+                    <figcaption>Today's Weather</figcaption>
+                </figure>
+                <p>The current temperature in Accra, Ghana is <span id="temp"></span> &deg;</p>
+                <p>Current wind speed <span id="speed"></span> MPH</p>
+                <p id="chill">Message</p>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-content-1">
+            <div class="footer-logo-side">
+                <img src="images/logo-1.jpg" alt="logo" />
+                <p>Home Page</p>
+            </div>
+            <div class="footer-map-side">
+                <p>kushbastero@gmail.com<br /> ☎️(+233) 201182491</p>
+                <p>
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/Accra+Ghana+Temple/@5.56749,-0.193706,18z/data=!4m5!3m4!1s0x0:0x956877901c6604e1!8m2!3d5.5673657!4d-0.1936551?hl=en-US">
+                        📍
+                    </a>
+                </p>
+            </div>
+        </div>
+        <p>
+            &copy; <span id="currentYear"></span> Home Page | Kwadjo Owusu-Ansah Quarshie| WDD230 Final Project | Last
+            Modification:
+            <span id="lastModif"></span>
+        </p>
+        <div class="website-counter"></div>
+</body>
+</footer>
+<script src="js/small.js"></script>
+<script src="js/weather.js"></script>
+</html>
